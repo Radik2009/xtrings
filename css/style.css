@@ -1,0 +1,280 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Header */
+header, .navbar {
+    background-color: #000000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra na parte inferior */
+    
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+.navbar-brand:hover {
+        color: #FFF;
+}
+
+.navbar-links a {
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .navbar-links {
+    padding: 1rem .8rem;
+}
+
+.nav-item {
+    color: #FFF;
+    margin-right: 15px;
+}
+
+.nav-item:hover {
+    color: #65DAF9;
+}
+
+
+
+
+/* Main */
+main {
+    padding-top: 70px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #65DAF9;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-btn:hover {
+    background-color: #3EC1D5;
+}
+
+
+
+
+/* About Area */
+#about-area {
+    padding: 50px 0;
+    background-color: #F9F9F9;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.medium {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.large {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* Service Area */
+#service-area {
+    padding: 30px 0;
+    background-color: #FFF;
+    
+}
+
+.title2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border-bottom: 2px solid black; /* Adiciona uma borda preta embaixo do texto */
+
+}
+
+.service-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon-and-text {
+    margin-bottom: 15px;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #65DAF9;
+}
+
+
+
+
+/* Data Area */
+
+.circle-box div{
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+.circle-box:nth-child(n+1) {
+    margin-top: 50px;
+}
+
+/* Footer */
+#footer {
+    padding: 30px 0;
+    background-color: #353D41;
+    color: #FFF;
+    text-align: center;
+}
+
+#footer p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#footer a {
+    color: #65DAF9;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+.imagem-curvos {
+    border-radius: 10px; /* Define o raio da curvatura */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra na parte inferior */
+}
+
+
+
+
+/*Slide*/
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 70vh;
+}
+
+
+
+
+/*time*/
+
+.card-body {
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra na parte inferior */
+}
+
+
+
+
+/*Trabalhe conosco*/
+
+#apply-area {
+    height: 500px;
+    margin-top: 50px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+#company-img{
+    background-image: url('../img/empresa.jpg');
+    background-size: cover;
+    height: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra na parte inferior */
+}
+
+#pattern-img h4{
+    color:#FFF;
+}
+
+#pattern-img p{
+    color:#FFF;
+}
+
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p{
+    margin-bottom: 20px;
+}
+
+#apply-btn p{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #FFF;
+}
+
