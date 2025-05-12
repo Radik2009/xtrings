@@ -15,6 +15,65 @@
         <!-- Estilos personalizados -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-BtZRu1bLRtD9ha8I2+rGJZFeaBYFuU78GrIh46/HV9ZgVNxoz2FXWnlpTrdZ8tFso63SL5/J/p3uENzOd/7x1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <style>
+            /* Ajustes responsivos */
+            @media (max-width: 768px) {
+                #logo {
+                    max-width: 150px; /* Logo menor em telas menores */
+                }
+
+                #navbar-links {
+                    text-align: center;
+                }
+
+                .carousel-item img {
+                    object-fit: cover;
+                    height: 50vh; /* Ajusta a altura do banner */
+                }
+
+                .service-box {
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+
+                .team-area .col-md-3 {
+                    margin-bottom: 20px;
+                }
+
+                #data-area {
+                    padding: 40px 0;
+                }
+
+                .col-md-3.circle-box {
+                    margin-bottom: 20px;
+                }
+                
+                #apply-area .apply-box {
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .carousel-caption h2 {
+                    font-size: 1.5rem; /* Tamanho menor de fonte para dispositivos ainda menores */
+                }
+
+                .carousel-caption p {
+                    font-size: 1rem;
+                }
+
+                #team-area .col-md-3 {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+
+                .service-box {
+                    padding: 15px;
+                }
+            }
+        </style>
     </head>
 <body>
     <header>
@@ -23,11 +82,11 @@
                 <a href="#" class="navbar-brand">
                     <img id="logo" src="img/xtrings.png" alt="HDC Agency">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" 
                     aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggle"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id= "navbar-links">
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" id="home-menu">Home</a>
                         <a class="nav-item nav-link" id="about-menu">A agencia</a>
@@ -91,7 +150,6 @@
                     </div>
                     <div class="col-md-6">
                         <img class="imagem-curvos imagem-curvos img-fluid" src="img/agencia.jpg" alt="Agencia">
-
                     </div>                                       
                 </div>
             </div>
@@ -101,13 +159,13 @@
                     <div class="col-12">
                         <h3 class="title2">Serviços</h3>
                     </div> 
-                    <div class="col-md-4 service-box">
+                    <div class="col-md-4 col-12 service-box">
                         <div class="icon-and-text">
                             <i class="fas fa-mobile-alt"></i>
                             <h4>Aplicativos Nativos</h4>
                         </div>
                         <p>Utilizamos o real poder dos dispositivos móveis construindo aplicativos nativos.</p>
-                    </div>
+                    </div
                     <div class="col-md-4 service-box">
                         <div class="icon-and-text">
                             <i class="fas fa-mobile-alt"></i>
