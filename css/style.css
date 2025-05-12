@@ -278,3 +278,32 @@ main {
     border-color: #FFF;
 }
 
+@media (max-width: 768px) {
+  /* Ajustes para imagens no carrossel em telas pequenas */
+  #mainSlider .carousel-inner img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  /* Centraliza o conteúdo das legendas no celular */
+  #mainSlider .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%; /* Limita a largura das legendas */
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
+  }
+
+  #mainSlider .carousel-caption a {
+    font-size: 1rem; /* Ajusta o tamanho do botão */
+  }
+}
